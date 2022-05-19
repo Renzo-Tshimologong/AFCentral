@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sylvorenzo/dotnet_Projects/AfCentral/AfCentral.csproj": {}
+  },
+  "projects": {
+    "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/AccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/AccessLayer.csproj",
+        "projectName": "AccessLayer",
+        "projectPath": "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/AccessLayer.csproj",
+        "packagesPath": "/home/sylvorenzo/.nuget/packages/",
+        "outputPath": "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sylvorenzo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sylvorenzo/dotnet_Projects/AfCentral/AfCentral.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sylvorenzo/dotnet_Projects/AfCentral/AfCentral.csproj",
+        "projectName": "AfCentral",
+        "projectPath": "/home/sylvorenzo/dotnet_Projects/AfCentral/AfCentral.csproj",
+        "packagesPath": "/home/sylvorenzo/.nuget/packages/",
+        "outputPath": "/home/sylvorenzo/dotnet_Projects/AfCentral/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sylvorenzo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/AccessLayer.csproj": {
+                "projectPath": "/home/sylvorenzo/dotnet_Projects/AfCentral/Access/AccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
